@@ -47,6 +47,7 @@ namespace ControlPersonas
             labelApellido.Text = persona.Apellido;
         }
 
+        //Este es un comentario de prueba para github
         private string LimpiarNombre(string nombre)
         {
             return System.Text.RegularExpressions.Regex.Replace(nombre, "[^a-zA-Z]+", "");
